@@ -444,14 +444,19 @@ nav ul li a {
 
 .main-section-05 input:nth-child(1){
     width: 97%;
+    
 }
 
 .main-section-05 input:nth-child(2), .main-section-05 input:nth-child(3){
     width: 47.5%;
+    /* outline: none; */
+    /* border: none; */
 }
 
 .main-section-05 input:focus{
     outline: none;
+} .main-section-05 .contact-form input {
+    width: 97% !important;
 }
 
 .main-section-05 button{
